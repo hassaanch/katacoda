@@ -1,3 +1,8 @@
+Earlier we learned that we can start a container with a specific command or in an *interactive* mode.
+
+If we want to specify a default command to use when someone starts a container from our image, we can use the ``ENTRYPOINT``{{copy}} instruction.
+
+In this example, we specify that we want our container to list the contents of the default directory using the ``dir`` command:
 
 <pre class="file" data-filename="Dockerfile" data-target="append">
 ENTRYPOINT ["dir"]
