@@ -1,7 +1,6 @@
 {
     "title": "Dockerizing .NET Core Applications",
     "description": "In this workshop, you will learn enough of the Docker fundamentals to create a .NET Core solution running in Docker",
-	"icon": "fa-csharp",
     "courses": [
         {
             "course_id": "docker",
