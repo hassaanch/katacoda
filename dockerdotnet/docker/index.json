@@ -24,7 +24,8 @@
 			},
 			{
 				"title": "Listing Images",
-				"text": "05-list-images/content.md"
+				"text": "05-list-images/content.md",
+				"courseData": "05-list-images/background.sh"
 			},
 			{
 				"title": "Listing Running Containers",

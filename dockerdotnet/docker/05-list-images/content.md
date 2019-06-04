@@ -21,5 +21,5 @@ docker images ubuntu:16.04
 For complex queries, there is a ``--filter``{{copy}} option. In this example, we find all images that were created before the **mysql** image:
 
 ```
-docker images --filter "before=mysql"
+docker images --filter "before=ubuntu:16.04"
 ```{{execute}}

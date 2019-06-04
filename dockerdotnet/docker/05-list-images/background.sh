@@ -1,0 +1,1 @@
+docker pull ubuntu:14.04
