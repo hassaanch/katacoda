@@ -7,6 +7,28 @@
 			{
 				"title": "Exercise 1: Basic Docker Commands",
 				"text": "01-basic-commands/content.md"
+			},
+			{
+				"title": "Pulling an Image",
+				"text": "02-pulling-images/content.md"
+			},
+			{
+				"title": "Running an Image",
+				"text": "03-running-images/content.md"
+			},
+			{
+				"title": "Knowledge Check: Can you run an image?",
+				"text": "04-check-running-images/content.md",
+				"answer": "04-check-running-images/answer.md",
+				"verify": "04-check-running-images/verify.sh"
+			},
+			{
+				"title": "Listing Images",
+				"text": "05-list-images/content.md"
+			},
+			{
+				"title": "Listing Running Containers",
+				"text": "06-list-containers/content.md"
 			}
 		],
 		"intro": {
