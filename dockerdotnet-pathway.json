@@ -17,6 +17,16 @@
             "course_id": "dotnet-images",
             "title": ".NET Core on Docker Hub",
             "description": "Learn how to use the official .NET Core's images on Docker Hub"
+        },
+        {
+            "course_id": "dotnet-console-app",
+            "title": ".NET Core Console Applications",
+            "description": "Learn how to build a .NET Core console application"
+        },
+        {
+            "course_id": "dotnet-web-app",
+            "title": ".NET Core Web Applications",
+            "description": "Learn how to build a .NET Core web application"
         }
     ]
 }
