@@ -7,6 +7,11 @@
             "course_id": "docker",
             "title": "Basic Docker Commands",
             "description": "Learn how to manage containers using Docker"
+        },
+        {
+            "course_id": "docker-web-server",
+            "title": "Hosting a Web Server in Docker",
+            "description": "Learn how to host a web server using Docker",
         }
     ]
 }

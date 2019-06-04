@@ -27,6 +27,7 @@
 		"uilayout": "terminal-iframe"
 	},
 	"backend": {
+		"port": 80,
 		"imageid": "docker"
 	}
 }
