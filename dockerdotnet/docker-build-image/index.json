@@ -42,10 +42,10 @@
 			}
 		],
 		"intro": {
-			"text": "00-introduction/introduction.md"
+			"text": "00-introduction/content.md"
 		},
 		"finish": {
-			"text": "09-conclusion/conclusion.md"
+			"text": "09-conclusion/content.md"
 		}
 	},
 	"files": [
