@@ -13,7 +13,7 @@ RUN apt-get update
 Now, we build our container image using a newer tag:
 
 ```
-docker build --tag utility:0.4-prerelease .
+docker build --tag utility:0.5-prerelease .
 ```{{execute}}
 
 We can then add another new line to our Dockerfile to install the ``unzip`` package:
@@ -25,5 +25,5 @@ RUN apt-get install unzip
 Again, we build our container image using a newer tag:
 
 ```
-docker build --tag utility:0.5-prerelease .
+docker build --tag utility:0.6-prerelease .
 ```{{execute}}

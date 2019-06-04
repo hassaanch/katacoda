@@ -9,25 +9,25 @@
 				"text": "01-basic-commands/content.md"
 			},
 			{
-				"title": "Pulling an Image",
+				"title": "Exercise 2: Pulling an Image",
 				"text": "02-pulling-images/content.md"
 			},
 			{
-				"title": "Running an Image",
+				"title": "Exercise 3: Running an Image",
 				"text": "03-running-images/content.md"
 			},
 			{
-				"title": "Knowledge Check: Can you run an image?",
+				"title": "Knowledge Check: Can You Run an Image?",
 				"text": "04-check-running-images/content.md",
 				"answer": "04-check-running-images/answer.md",
 				"verify": "04-check-running-images/verify.sh"
 			},
 			{
-				"title": "Listing Images",
+				"title": "Exercise 5: Listing Images",
 				"text": "05-list-images/content.md"
 			},
 			{
-				"title": "Listing Running Containers",
+				"title": "Exercise 6: Listing Running Containers",
 				"text": "06-list-containers/content.md"
 			}
 		],

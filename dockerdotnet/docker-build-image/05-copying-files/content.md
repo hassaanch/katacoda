@@ -13,7 +13,7 @@ COPY script.js ./
 Now, we build our container image using a newer tag:
 
 ```
-docker build --tag utility:0.6-prerelease .
+docker build --tag utility:0.7-prerelease .
 ```{{execute}}
 
 You can also use patterns to match multiple files. This next line will copy all files from the current directory of the host machine (``.``{{copy}}) into the current directory (``./``{{copy}}) of the container:
@@ -25,12 +25,12 @@ COPY . ./
 Again, we build our container image using a newer tag:
 
 ```
-docker build --tag utility:0.7-prerelease .
+docker build --tag utility:0.8-prerelease .
 ```{{execute}}
 
 We can alternatively use the ``ADD``{{copy}} instruction to perform similar functionalty. The ``ADD`` instruction also adds the ability to download files from the internet.
 
-For example, we have a **azure-small-button.png** file located at the <http://bit.ly/azbtnsm> url. We can download that file and store it in the current directory (``./``{{copy}}) of the container:
+For example, we have an image file located at the <http://bit.ly/azbtnsm> url. We can download that file and store it in the current directory (``./``{{copy}}) of the container:
 
 <pre class="file" data-filename="Dockerfile" data-target="append">
 ADD http://bit.ly/azbtnsm ./
@@ -39,5 +39,5 @@ ADD http://bit.ly/azbtnsm ./
 And again, we build our container image using a newer tag:
 
 ```
-docker build --tag utility:0.8-prerelease .
+docker build --tag utility:0.9-prerelease .
 ```{{execute}}

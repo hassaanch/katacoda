@@ -25,13 +25,27 @@
 				"title": "Exercise 5: Copying Files",
 				"text": "05-copying-files/content.md",
 				"code": "05-copying-files/foreground.sh"
+			},
+			{
+				"title": "Exercise 6: Running Default Commands",
+				"text": "06-entrypoint/content.md"
+			},
+			{
+				"title": "Exercise 7: Running Your Custom Images",
+				"text": "07-running-image/content.md"
+			},
+			{
+				"title": "Knowledge Check: Can You Build a Custom Image?",
+				"text": "08-check-build-images/content.md",
+				"answer": "08-check-build-images/answer.md",
+				"verify": "08-check-build-images/verify.sh"
 			}
 		],
 		"intro": {
-			"text": "introduction.md"
+			"text": "00-introduction/introduction.md"
 		},
 		"finish": {
-			"text": "conclusion.md"
+			"text": "09-conclusion/conclusion.md"
 		}
 	},
 	"files": [

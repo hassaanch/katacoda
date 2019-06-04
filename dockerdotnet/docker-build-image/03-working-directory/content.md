@@ -11,5 +11,5 @@ WORKDIR /app
 Now, we build our container image using a newer tag:
 
 ```
-docker build --tag utility:0.3-prerelease .
+docker build --tag utility:0.4-prerelease .
 ```{{execute}}

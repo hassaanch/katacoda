@@ -20,3 +20,17 @@ If you wished to specify a value for the build argument, you can use the ``--bui
 ```
 docker build --tag utility:0.2-prerelease --build-arg UBUNTU_VERSION=bionic .
 ```{{execute}}
+
+We can also set Environment variables in our container image using the ``ENV`` instruction.
+
+For example, we can set an Envrionment variable named ``DEBUG``{{copy}} to a value of ``1``{{copy}}:
+
+<pre class="file" data-filename="Dockerfile" data-target="append">
+ENV DEBUG=1
+</pre>
+
+Now, we build our container image using a newer tag:
+
+```
+docker build --tag utility:0.3-prerelease .
+```{{execute}}
