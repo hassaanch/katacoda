@@ -20,14 +20,14 @@
 		"showdashboard": true,
 		"dashboards": [
 			{
-				"name": "Web Server",
-				"port": 80
+				"name": "Web Browser",
+				"port": 400
 			}
 		],
 		"uilayout": "terminal-iframe"
 	},
 	"backend": {
-		"port": 80,
+		"port": 400,
 		"imageid": "docker"
 	}
 }
