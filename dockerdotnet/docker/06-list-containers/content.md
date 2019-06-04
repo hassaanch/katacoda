@@ -13,3 +13,9 @@ If you want to view a list of all containers including ones that are not running
 ```
 docker ps -a
 ```{{execute}}
+
+You can also create a real-time view of all containers using the ``docker stats``{{copy}} command:
+
+```
+docker stats --all
+```{{execute}}
