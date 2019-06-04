@@ -13,4 +13,3 @@ Finally, we build our container image using the ``latest``{{copy}} tag to indica
 ```
 docker build --tag utility:latest .
 ```{{execute}}
-

@@ -1,1 +1,1 @@
-(( $(docker ps --all | grep 'ubuntu:16.04' | grep '"ps"' 2>/dev/null | wc -l) >= 1 )) && echo \"done\"
+(( $(docker ps --all | grep 'ubuntu:16.04' | grep 'ps' 2>/dev/null | wc -l) >= 1 )) && echo \"done\"

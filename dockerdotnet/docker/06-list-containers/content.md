@@ -11,7 +11,7 @@ docker ps
 If you want to view a list of all containers including ones that are not running, you simply need to add the ``--all``{{copy}} (or ``-a``{{copy}}) flag:
 
 ```
-docker ps -a
+docker ps --all
 ```{{execute}}
 
 You can also create a real-time view of all containers using the ``docker stats``{{copy}} command:
@@ -19,3 +19,5 @@ You can also create a real-time view of all containers using the ``docker stats`
 ```
 docker stats --all
 ```{{execute}}
+
+> **Hint**: You can close the interactive stats experience by using the <kbd>Ctrl</kbd>+<kbd>C</kbd> keyboard shortcut.
