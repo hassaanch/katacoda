@@ -6,7 +6,8 @@
 		"steps": [
 			{
 				"title": "Exercise 1: Creating a Dockerfile",
-				"text": "01-creating-dockerfile/content.md"
+				"text": "01-creating-dockerfile/content.md",
+				"code": "00-introduction/foreground.sh"
 			}
 		],
 		"intro": {
@@ -16,14 +17,9 @@
 			"text": "conclusion.md"
 		}
 	},
-    "assets": {
-      "host01": [
-        {
-          "file": "Dockerfile",
-          "target": "/home/scrapbook/tutorial"
-        }
-	  ]
-	},
+	"files": [
+		"Dockerfile"
+	],
 	"environment": {
 		"showdashboard": true,
 		"uilayout": "editor-terminal",
