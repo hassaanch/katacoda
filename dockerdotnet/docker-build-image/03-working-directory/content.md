@@ -5,5 +5,5 @@ WORKDIR /app
 </pre>
 
 ```
-docker build --tag utility:0.2-prerelease .
+docker build --tag utility:0.3-prerelease .
 ```{{execute}}

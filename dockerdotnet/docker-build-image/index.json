@@ -10,17 +10,21 @@
 				"code": "01-creating-dockerfile/foreground.sh"
 			},
 			{
-				"title": "Exercise 2: Changing Working Directory",
-				"text": "02-working-directory/content.md"
+				"title": "Exercise 2: Creating Arguments",
+				"text": "02-arguments/content.md"
 			},
 			{
-				"title": "Exercise 3: Running Commands",
-				"text": "03-running-commands/content.md"
+				"title": "Exercise 3: Changing Working Directory",
+				"text": "03-working-directory/content.md"
 			},
 			{
-				"title": "Exercise 4: Copying Files",
-				"text": "04-copying-files/content.md",
-				"code": "04-copying-files/foreground.sh"
+				"title": "Exercise 4: Running Commands",
+				"text": "04-running-commands/content.md"
+			},
+			{
+				"title": "Exercise 5: Copying Files",
+				"text": "05-copying-files/content.md",
+				"code": "05-copying-files/foreground.sh"
 			}
 		],
 		"intro": {
