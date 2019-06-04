@@ -8,6 +8,19 @@
 				"title": "Exercise 1: Creating a Dockerfile",
 				"text": "01-creating-dockerfile/content.md",
 				"code": "01-creating-dockerfile/foreground.sh"
+			},
+			{
+				"title": "Exercise 2: Changing Working Directory",
+				"text": "02-working-directory/content.md"
+			},
+			{
+				"title": "Exercise 3: Running Commands",
+				"text": "03-running-commands/content.md"
+			},
+			{
+				"title": "Exercise 4: Copying Files",
+				"text": "04-copying-files/content.md",
+				"code": "04-copying-files/foreground.sh"
 			}
 		],
 		"intro": {
