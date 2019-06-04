@@ -5,15 +5,15 @@
 	"details": {
 		"steps": [
 			{
-				"title": "Exercise 1",
-				"text": "exercise-1.md"
+				"title": "Exercise 1: First Exercise",
+				"text": "01-first-exercise/content.md"
 			}
 		],
 		"intro": {
-			"text": "introduction.md"
+			"text": "00-introduction/content.md"
 		},
 		"finish": {
-			"text": "conclusion.md"
+			"text": "09-conclusion/content.md"
 		}
 	},
 	"environment": {
