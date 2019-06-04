@@ -1,6 +1,6 @@
 {
-	"title": ".NET Core on Docker Hub",
-	"description": "Learn how to use the official .NET Core's images on Docker Hub",
+	"title": ".NET Core Web Applications",
+	"description": "Learn how to build a .NET Core web application",
 	"icon": "fa-csharp",
 	"details": {
 		"steps": [
@@ -17,7 +17,15 @@
 		}
 	},
 	"environment": {
-		"uilayout": "terminal"
+		"showdashboard": true,
+		"dashboards": [
+			{
+				"name": "Web Server",
+				"port": 80
+			}
+		],
+		"uilayout": "editor-terminal",
+		"uisettings": "csharp"
 	},
 	"backend": {
 		"imageid": "docker"

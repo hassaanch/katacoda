@@ -1,6 +1,6 @@
 {
-	"title": "Basic Docker Commands",
-	"description": "Learn how to manage containers using Docker",
+	"title": "Hosting a Web Server in Docker",
+	"description": "Learn how to host a web server using Docker",
 	"icon": "fa-docker",
 	"details": {
 		"steps": [
@@ -18,7 +18,13 @@
 	},
 	"environment": {
 		"showdashboard": true,
-		"uilayout": "terminal"
+		"dashboards": [
+			{
+				"name": "Web Server",
+				"port": 80
+			}
+		],
+		"uilayout": "terminal-iframe"
 	},
 	"backend": {
 		"imageid": "docker"
