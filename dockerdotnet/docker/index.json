@@ -5,8 +5,8 @@
 	"details": {
 		"steps": [
 			{
-				"title": "Exercise 1",
-				"text": "exercise-1.md"
+				"title": "Exercise 1: Basic Docker Commands",
+				"text": "01-basic-commands/content.md"
 			}
 		],
 		"intro": {
