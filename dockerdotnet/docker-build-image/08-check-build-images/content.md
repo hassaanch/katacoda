@@ -1,0 +1,3 @@
+- Container name must be **test**
+- Container must have a file named **demo.ts** in the default directory
+- Container must run the **"dir"** command when it starts
