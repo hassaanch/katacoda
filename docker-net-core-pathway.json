@@ -4,6 +4,11 @@
     "icon": "fa-docker",
     "courses": [
         {
+            "course_id": "docker",
+            "title": "Deploying Your First Docker Container",
+            "description": "Learn how to launch containers using Docker"
+        },
+        {
             "course_id": "images",
             "title": ".NET Core on Docker Hub",
             "description": "Learn how to use the official .NET Core's images on Docker Hub"
