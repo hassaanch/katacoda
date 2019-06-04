@@ -16,6 +16,14 @@
 			"text": "conclusion.md"
 		}
 	},
+    "assets": {
+      "client": [
+        {
+          "file": "Dockerfile",
+          "target": "~/"
+        }
+	  ]
+	},
 	"files": [
 		"Dockerfile"
 	],

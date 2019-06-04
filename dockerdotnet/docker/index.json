@@ -24,8 +24,7 @@
 			},
 			{
 				"title": "Listing Images",
-				"text": "05-list-images/content.md",
-				"courseData": "05-list-images/background.sh"
+				"text": "05-list-images/content.md"
 			},
 			{
 				"title": "Listing Running Containers",
@@ -33,10 +32,11 @@
 			}
 		],
 		"intro": {
-			"text": "introduction.md"
+			"text": "00-introduction/content.md",
+			"courseData": "00-introduction/background.sh"
 		},
 		"finish": {
-			"text": "conclusion.md"
+			"text": "07-conclusion/content.md"
 		}
 	},
 	"environment": {
