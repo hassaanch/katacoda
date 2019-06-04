@@ -3,7 +3,7 @@
         {            
             "title": "Dockerizing .NET Core Applications",
             "description": "Learn how to Dockerize .NET Core applications",
-            "id": "docker-net-core"
+            "id": "dockerdotnet"
         }
     ]
 }
