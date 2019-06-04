@@ -1,0 +1,24 @@
+{
+    "title": "Example",
+    "description": "Example scenario",
+    "details": {
+      "steps": [
+        {
+          "title": "Exercise 1",
+          "text": "exercise-1.md"
+        }
+      ],
+      "intro": {
+        "text": "introduction.md"
+      },
+      "finish": {
+        "text": "conclusion.md"
+      }
+    },
+    "environment": {
+      "uilayout": "terminal"
+    },
+    "backend": {
+      "imageid": "dotnet"
+    }
+  }
