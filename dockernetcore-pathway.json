@@ -4,7 +4,7 @@
     "icon": "fa-docker",
     "courses": [
         {
-            "course_id": "docker/deploying-first-container",
+            "course_id": "docker",
             "title": "Deploying Your First Docker Container",
             "description": "Learn how to launch containers using Docker"
         },
