@@ -18,11 +18,15 @@
 	},
 	"environment": {
 		"showdashboard": true,
-		"dashboards": "Web Server",
+		"dashboards": [
+			{
+				"name": "Web Server",
+				"port": 80
+			}
+		],
 		"uilayout": "terminal-iframe"
 	},
 	"backend": {
-		"port": 80,
 		"imageid": "docker"
 	}
 }
