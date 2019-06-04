@@ -24,9 +24,6 @@
         }
 	  ]
 	},
-	"files": [
-		"Dockerfile"
-	],
 	"environment": {
 		"showdashboard": true,
 		"uilayout": "editor-terminal",
