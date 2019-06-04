@@ -5,8 +5,8 @@
     "courses": [
         {
             "course_id": "docker",
-            "title": "Deploying Your First Docker Container",
-            "description": "Learn how to launch containers using Docker"
+            "title": "Basic Docker Commands",
+            "description": "Learn how to manage containers using Docker"
         },
         {
             "course_id": "images",
