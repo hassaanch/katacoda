@@ -4,7 +4,7 @@ For our first instructions, we are going to create a build argument that can be 
 <pre class="file" data-filename="Dockerfile" data-target="replace">
 ARG UBUNTU_VERSION=cosmic
 
-$UBUNTU_VERSION
+FROM ubuntu:$UBUNTU_VERSION
 </pre>
 
 We can now issue another build command. In this example, we will specify a different tag (``0.2-prerelease``{{copy}}) for our container image:
