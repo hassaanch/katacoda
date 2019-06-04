@@ -6,7 +6,9 @@
 		"steps": [
 			{
 				"title": "Exercise 1",
-				"text": "exercise-1.md"
+				"text": "exercise-1.md",
+				"answer": "exercise-1-answer.md",
+				"verify": "exercise-1-verify.sh"
 			}
 		],
 		"intro": {
