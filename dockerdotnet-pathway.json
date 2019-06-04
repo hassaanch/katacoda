@@ -12,6 +12,11 @@
             "course_id": "docker-web-server",
             "title": "Hosting a Web Server in Docker",
             "description": "Learn how to host a web server using Docker",
+        },
+        {
+            "course_id": "dotnet-images",
+            "title": ".NET Core on Docker Hub",
+            "description": "Learn how to use the official .NET Core's images on Docker Hub"
         }
     ]
 }
