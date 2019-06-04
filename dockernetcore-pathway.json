@@ -1,0 +1,17 @@
+{
+    "title": "Dockerizing .NET Core Applications",
+    "description": "In this workshop, you will learn enough of the Docker fundamentals to create a .NET Core solution running in Docker",
+    "icon": "fa-docker",
+    "courses": [
+        {
+            "course_id": "docker-deploying-first-container",
+            "title": "Deploying Your First Docker Container",
+            "description": "Learn how to launch containers using Docker"
+        },
+        {
+            "course_id": "docker-net-core-images",
+            "title": ".NET Core on Docker Hub",
+            "description": "Learn how to use the official .NET Core's images on Docker Hub"
+        }
+    ]
+}

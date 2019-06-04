@@ -1,6 +1,6 @@
 {
-    "title": "Example",
-    "description": "Example scenario",
+    "title": ".NET Core on Docker Hub",
+    "description": "Learn how to use the official .NET Core's images on Docker Hub",
     "details": {
       "steps": [
         {
