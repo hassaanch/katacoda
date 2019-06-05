@@ -14,11 +14,6 @@
             "description": "Learn how to create new containers and images using Docker"
         },
         {
-            "course_id": "docker-web-server",
-            "title": "Hosting a Web Server in Docker",
-            "description": "Learn how to host a web server using Docker"
-        },
-        {
             "course_id": "dotnet-images",
             "title": ".NET Core on Docker Hub",
             "description": "Learn how to use the official .NET Core's images on Docker Hub"
@@ -27,6 +22,11 @@
             "course_id": "dotnet-console-app",
             "title": ".NET Core Console Applications",
             "description": "Learn how to build a .NET Core console application"
+        },
+        {
+            "course_id": "docker-web-server",
+            "title": "Hosting a Web Server in Docker",
+            "description": "Learn how to host a web server using Docker"
         },
         {
             "course_id": "dotnet-web-app",

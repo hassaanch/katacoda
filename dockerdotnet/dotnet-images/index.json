@@ -18,7 +18,13 @@
 	},
 	"environment": {
 		"showdashboard": true,
-		"uilayout": "terminal"
+		"dashboards": [
+			{
+				"name": ".NET Core on Docker Hub",
+				"href": "https://hub.docker.com/_/microsoft-dotnet-core/"
+			}
+		],
+		"uilayout": "terminal-iframe"
 	},
 	"backend": {
 		"imageid": "docker"
