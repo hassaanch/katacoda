@@ -7,30 +7,24 @@
 	"details": {
 		"steps": [
 			{
-				"title": "Exercise 1: .NET Core Images",
+				"title": "Exercise: .NET Core Images",
 				"text": "01-net-core-images/content.md"
 			},
 			{
-				"title": "Exercise 2: Image Repositories",
+				"title": "Exercise: Image Repositories",
 				"text": "02-image-repositories/content.md"
 			},
 			{
-				"title": "Exercise 3: Image Tags",
+				"title": "Exercise: Image Tags",
 				"text": "03-image-tags/content.md"
 			},
 			{
-				"title": "Exercise 4: Interactive Builds",
+				"title": "Exercise: Interactive Builds",
 				"text": "04-interactive-builds/content.md"
 			},
 			{
-				"title": "Exercise 5: Buliding in Dockerfile",
+				"title": "Exercise: Buliding in Dockerfile",
 				"text": "05-dockerfile-builds/content.md"
-			},
-			{
-				"title": "Knowledge Check: Can You Build a .NET Project?",
-				"text": "06-check-build-project/content.md",
-				"answer": "06-check-build-project/answer.md",
-				"verify": "06-check-build-project/verify.sh"
 			}
 		],
 		"assets": {
