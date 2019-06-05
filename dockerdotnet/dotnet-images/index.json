@@ -54,7 +54,7 @@
 		"host01": [
 			{
 				"file": "Program.cs",
-				"target": "~/"
+				"target": "/home/scrapbook/tutorial/"
 			}
 		]
 	},
