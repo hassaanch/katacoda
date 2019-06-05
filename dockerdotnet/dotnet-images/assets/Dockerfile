@@ -8,4 +8,4 @@ RUN dotnet restore
 
 RUN dotnet publish --output out --configuration Release
 
-ENTRYPOINT ["dotnet", "Demo.Client.dll"]
+ENTRYPOINT ["dotnet", "out/Demo.Client.dll"]
