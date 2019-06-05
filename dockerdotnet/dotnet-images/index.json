@@ -34,7 +34,7 @@
 			}
 		],
 		"assets": {
-			"host01": [
+			"client": [
 				{
 					"file": "Dockerfile",
 					"target": "/home/scrapbook/tutorial/"
