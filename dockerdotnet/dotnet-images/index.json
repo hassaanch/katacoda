@@ -6,7 +6,7 @@
 		"steps": [
 			{
 				"title": "Exercise 1: .NET Core Images",
-				"text": "01-first-exercise/content.md"
+				"text": "01-net-core-images/content.md"
 			},
 			{
 				"title": "Exercise 2: Image Repositories",
@@ -25,7 +25,7 @@
 				"text": "05-dockerfile-builds/content.md"
 			},
 			{
-				"title": "Knowledge Check: Can",
+				"title": "Knowledge Check: Can You Build a .NET Project?",
 				"text": "06-check-build-project/content.md",
 				"answer": "06-check-build-project/answer.md",
 				"verify": "06-check-build-project/verify.sh"				
