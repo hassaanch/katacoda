@@ -2,6 +2,8 @@
 	"title": "Building Container Images Using Docker",
 	"description": "Learn how to create new containers and images using Docker",
 	"icon": "fa-docker",
+	"difficulty": "beginner",
+	"time": "15 minutes",
 	"details": {
 		"steps": [
 			{

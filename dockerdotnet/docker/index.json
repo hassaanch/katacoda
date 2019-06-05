@@ -2,6 +2,8 @@
 	"title": "Basic Docker Commands",
 	"description": "Learn how to manage containers using Docker",
 	"icon": "fa-docker",
+	"difficulty": "beginner",
+	"time": "10 minutes",
 	"details": {
 		"steps": [
 			{

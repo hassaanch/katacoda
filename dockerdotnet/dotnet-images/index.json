@@ -2,6 +2,8 @@
 	"title": ".NET Core on Docker Hub",
 	"description": "Learn how to use the official .NET Core's images on Docker Hub",
 	"icon": "fa-csharp",
+	"difficulty": "beginner",
+	"time": "10 minutes",
 	"details": {
 		"steps": [
 			{
