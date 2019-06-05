@@ -40,6 +40,22 @@
 			"text": "09-conclusion/content.md"
 		}
 	},
+    "assets": {
+      "client": [
+        {
+          "file": "Dockerfile",
+          "target": "~/"
+        },
+        {
+          "file": "Demo.Client.csproj",
+          "target": "~/"
+        },
+        {
+          "file": "Program.cs",
+          "target": "~/"
+        }
+      ]
+    },
 	"environment": {
 		"showdashboard": true,
 		"uilayout": "terminal"
