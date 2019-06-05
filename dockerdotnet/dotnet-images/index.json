@@ -33,30 +33,28 @@
 				"verify": "06-check-build-project/verify.sh"
 			}
 		],
+		"assets": {
+			"host01": [
+				{
+					"file": "Dockerfile",
+					"target": "/home/scrapbook/tutorial/"
+				},
+				{
+					"file": "Demo.Client.csproj",
+					"target": "/home/scrapbook/tutorial/"
+				},
+				{
+					"file": "Program.cs",
+					"target": "/home/scrapbook/tutorial/"
+				}
+			]
+		},
 		"intro": {
 			"text": "00-introduction/content.md"
 		},
 		"finish": {
 			"text": "09-conclusion/content.md"
 		}
-	},
-	"assets": {
-		"client": [
-			{
-				"file": "Dockerfile",
-				"target": "/home/scrapbook/tutorial/"
-			},
-			{
-				"file": "Demo.Client.csproj",
-				"target": "/home/scrapbook/"
-			}
-		],
-		"host01": [
-			{
-				"file": "Program.cs",
-				"target": "/home/scrapbook/tutorial/"
-			}
-		]
 	},
 	"environment": {
 		"showdashboard": true,
