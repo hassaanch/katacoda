@@ -14,6 +14,8 @@ If you wish to build .NET Core applications, you will need the SDK image. This i
 docker pull mcr.microsoft.com/dotnet/core/sdk
 ```{{execute}}
 
+> **Note**: You will quickly notice that the **sdk** image is massive and can take a while to download.
+
 There are slimmer images available that only include the runtime to run a .NET Core application. You will notice that pulling the **runtime** image is a lot faster than pulling the **SDK** image:
 
 ```

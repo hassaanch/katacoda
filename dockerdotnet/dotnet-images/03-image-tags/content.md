@@ -47,6 +47,6 @@ Images are often made available for preview versions of .NET Core. For example, 
 
 ```
 docker pull mcr.microsoft.com/dotnet/core/runtime:3.0.0-preview5-buster-slim
-```
+```{{execute}}
 
 > **Note**: Both the Debian and .NET Core versions have not been released yet.
