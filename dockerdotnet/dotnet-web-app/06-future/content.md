@@ -7,21 +7,23 @@ Use the following Dockerfile:
 <pre class="file" data-filename="Dockerfile" data-target="replace">
 FROM mcr.microsoft.com/dotnet/core/sdk:3.0 AS build
 
-WORKDIR /web
+WORKDIR /app
 
 COPY . ./
 
-RUN dotnet new reactredux --output . --name Demo.Web
+RUN dotnet new reactredux --output web --name spa
+
+WORKDIR /web
 
 RUN curl -sL https://deb.nodesource.com/setup_12.x | bash - && apt-get install -yq nodejs build-essential
 
-RUN dotnet publish --output site --configuration Release
+RUN dotnet publish --output out --configuration Release
 
 FROM mcr.microsoft.com/dotnet/core/aspnet:3.0
 
-COPY --from=build /web/site .
+COPY --from=build /app/web/out .
 
-ENTRYPOINT ["dotnet", "Demo.Web.dll"]
+ENTRYPOINT ["dotnet", "spa.dll"]
 </pre>
 
 This dockerfile uses the ``dotnet new reactredux --output . --name Demo.Web`` command to create a brand new ASP.NET Core project that uses [React](https://facebook.github.io/react/) and [Redux](https://redux.js.org/) for client-side code.
@@ -31,11 +33,11 @@ The dockerfile also uses the ``curl -sL https://deb.nodesource.com/setup_12.x | 
 You can then build the container image, run an instance from the image and then view the dynamically assigned port using the following three commands:
 
 ```
-docker build --tag demofun .
+docker build --tag spaweb .
 ```{{execute}}
 
 ```
-docker run --detach --publish 80 demofun
+docker run --detach --publish 80 spaweb
 ```{{execute}}
 
 ```
