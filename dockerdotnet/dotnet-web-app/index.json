@@ -21,26 +21,6 @@
 				"text": "04-build-stages/content.md"
 			}
 		],
-		"assets": {
-			"client": [
-				{
-					"file": "Dockerfile",
-					"target": "/home/scrapbook/tutorial/"
-				},
-				{
-					"file": "Demo.Web.csproj",
-					"target": "/home/scrapbook/tutorial/"
-				},
-				{
-					"file": "Program.cs",
-					"target": "/home/scrapbook/tutorial/"
-				},
-				{
-					"file": "Startup.cs",
-					"target": "/home/scrapbook/tutorial/"
-				}
-			]
-		},
 		"intro": {
 			"text": "00-introduction/content.md"
 		},
