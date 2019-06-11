@@ -24,11 +24,6 @@
             "description": "Learn how to build a .NET Core console application"
         },
         {
-            "course_id": "docker-web-server",
-            "title": "Hosting a Web Server in Docker",
-            "description": "Learn how to host a web server using Docker"
-        },
-        {
             "course_id": "dotnet-web-app",
             "title": ".NET Core Web Applications",
             "description": "Learn how to build a .NET Core web application"
