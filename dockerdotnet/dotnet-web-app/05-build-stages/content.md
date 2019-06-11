@@ -45,5 +45,5 @@ docker build --tag demoweb:2 .
 Once the container instance is built, we can run it using the ``docker run`` command specifying the newest tag of our image:
 
 ```
-docker run --publish 80:80 demoweb:2
+docker run --detach --publish 80:80 demoweb:2
 ```{{execute}}
