@@ -13,19 +13,23 @@
 				"text": "02-dockerfile/content.md"
 			},
 			{
-				"title": "Exercise: Running a Web Server uisng Docker",
+				"title": "Exercise: Running a Web Server using Docker",
 				"text": "03-web-server/content.md"
 			},
 			{
+				"title": "Exercise: Running a Web Server on Different Ports",
+				"text": "04-port-bindings/content.md"
+			},
+			{
 				"title": "Exercise: Optimizing Images using Dockerfile Build Stages",
-				"text": "04-build-stages/content.md"
+				"text": "05-build-stages/content.md"
 			}
 		],
 		"intro": {
 			"text": "00-introduction/content.md"
 		},
 		"finish": {
-			"text": "05-conclusion/content.md"
+			"text": "06-conclusion/content.md"
 		}
 	},
 	"files": [
