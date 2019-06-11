@@ -42,7 +42,7 @@
 				"port": 80
 			}
 		],
-		"uilayout": "editor-terminal-split",
+		"uilayout": "terminal-iframe",
 		"uisettings": "csharp"
 	},
 	"backend": {
