@@ -5,17 +5,33 @@
 	"details": {
 		"steps": [
 			{
-				"title": "Exercise: First Exercise",
-				"text": "01-first-exercise/content.md"
+				"title": "Exercise: Create .NET Core Project",
+				"text": "01-create-project/content.md"
+			},
+			{
+				"title": "Pull .NET Code Into Docker",
+				"text": "02-pull-code/content.md"
+			},
+			{
+				"title": "Build Interactively",
+				"text": "03-build/content.md"
+			},
+			{
+				"title": "Run Application",
+				"text": "04-run/content.md"
 			}
 		],
 		"intro": {
 			"text": "00-introduction/content.md"
 		},
 		"finish": {
-			"text": "09-conclusion/content.md"
+			"text": "05-conclusion/content.md"
 		}
 	},
+	"files": [
+		"Demo.Client.csproj",
+		"Program.cs"
+	],
 	"environment": {
 		"showdashboard": true,
 		"uilayout": "editor-terminal",
