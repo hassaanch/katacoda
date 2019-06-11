@@ -5,15 +5,27 @@
 	"details": {
 		"steps": [
 			{
-				"title": "Exercise: First Exercise",
-				"text": "01-first-exercise/content.md"
+				"title": "Exercise: Authoring a Simple .NET Core Web Application",
+				"text": "01-author-web/content.md"
+			},
+			{
+				"title": "Exercise: Building a .NET Core Solution using a Dockerfile ",
+				"text": "02-dockerfile/content.md"
+			},
+			{
+				"title": "Exercise: Running a Web Server uisng Docker",
+				"text": "03-web-server/content.md"
+			},
+			{
+				"title": "Exercise: Optimizing Images using Dockerfile Build Stages",
+				"text": "04-build-stages/content.md"
 			}
 		],
 		"intro": {
 			"text": "00-introduction/content.md"
 		},
 		"finish": {
-			"text": "09-conclusion/content.md"
+			"text": "05-conclusion/content.md"
 		}
 	},
 	"files": [
@@ -30,7 +42,7 @@
 				"port": 80
 			}
 		],
-		"uilayout": "editor-terminal",
+		"uilayout": "editor-terminal-split",
 		"uisettings": "csharp"
 	},
 	"backend": {
