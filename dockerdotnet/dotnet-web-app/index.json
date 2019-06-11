@@ -28,6 +28,26 @@
 			"text": "05-conclusion/content.md"
 		}
 	},
+	"assets": {
+		"client": [
+			{
+				"file": "Dockerfile",
+				"target": "/home/scrapbook/tutorial/"
+			},
+			{
+				"file": "Demo.Web.csproj",
+				"target": "/home/scrapbook/tutorial/"
+			},
+			{
+				"file": "Program.cs",
+				"target": "/home/scrapbook/tutorial/"
+			},
+			{
+				"file": "Startup.cs",
+				"target": "/home/scrapbook/tutorial/"
+			}
+		]
+	},
 	"files": [
 		"Demo.Web.csproj",
 		"Startup.cs",
@@ -42,7 +62,7 @@
 				"port": 80
 			}
 		],
-		"uilayout": "terminal-iframe",
+		"uilayout": "terminal-iframe-split",
 		"uisettings": "csharp"
 	},
 	"backend": {
