@@ -1,0 +1,1 @@
+clear && docker stop $(docker ps --quiet)
