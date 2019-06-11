@@ -58,8 +58,9 @@
 		"showdashboard": true,
 		"dashboards": [
 			{
-				"name": "Web Server",
-				"port": 80
+				"name": "Running Containers", 
+				"command": "docker stats", 
+				"target": "host01"
 			}
 		],
 		"uilayout": "terminal-iframe-split",
