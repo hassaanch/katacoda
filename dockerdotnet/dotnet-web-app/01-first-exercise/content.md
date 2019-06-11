@@ -67,3 +67,11 @@ COPY --from=build /web/site .
 
 ENTRYPOINT ["dotnet", "Demo.Web.dll"]
 ```
+
+```
+docker build --tag demoweb .
+```
+
+```
+docker run --publish 80:80 demoweb
+```
