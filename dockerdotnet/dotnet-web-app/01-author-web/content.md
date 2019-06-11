@@ -44,18 +44,7 @@ public class Startup
 
     public void Configure(IApplicationBuilder app) =>
         app.Run(context =>
-            context.Response.WriteAsync($@"
-                <html>
-                    <head>
-                        {css}
-                    </head>
-                    <body class=""container"">
-                        <h1 class=""display-1"">
-                            {title}
-                        </h1>
-                    </body>
-                </html>
-            ")
+            context.Response.WriteAsync($"<html><head>{css}</head><body class=\"container\"><h1 class=\"display-1\">{title}</h1></body></html>")
 	    );
 }
 </pre>

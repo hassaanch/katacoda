@@ -1,3 +1,1 @@
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ullamcorper dapibus fringilla. Mauris faucibus viverra lorem, eu condimentum augue tempus at. Integer at eleifend turpis, et scelerisque est. Nam semper sagittis sem, sed scelerisque lectus scelerisque vitae. 
-
-Morbi laoreet vulputate eleifend. Aenean aliquam porttitor neque nec egestas. Vestibulum sed fringilla felis. Etiam aliquam interdum massa, vitae mollis est pharetra dapibus. Aliquam ornare augue quis augue vehicula egestas. Nulla vitae auctor ligula. Aenean nec iaculis orci.
+In this final course, you will take everything you learned to run a .NET Core web application in Docker

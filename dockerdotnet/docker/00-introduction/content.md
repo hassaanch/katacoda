@@ -1,3 +1,3 @@
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ullamcorper dapibus fringilla. Mauris faucibus viverra lorem, eu condimentum augue tempus at. Integer at eleifend turpis, et scelerisque est. Nam semper sagittis sem, sed scelerisque lectus scelerisque vitae. 
+In this first course, you will learn some of the basics of using Docker.
 
-Morbi laoreet vulputate eleifend. Aenean aliquam porttitor neque nec egestas. Vestibulum sed fringilla felis. Etiam aliquam interdum massa, vitae mollis est pharetra dapibus. Aliquam ornare augue quis augue vehicula egestas. Nulla vitae auctor ligula. Aenean nec iaculis orci.
+The techniques you learn in this course will serve as a foundation for using Docker to build and run .NET Core applications.
