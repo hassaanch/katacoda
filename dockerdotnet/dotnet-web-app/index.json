@@ -25,11 +25,6 @@
 			{
 				"title": "Exercise: Optimizing Images using Dockerfile Build Stages",
 				"text": "05-build-stages/content.md"
-			},
-			{
-				"title": "Exercise: What's Next?",
-				"text": "06-future/content.md",
-				"code": "06-future/foreground.sh"
 			}
 		],
 		"intro": {
