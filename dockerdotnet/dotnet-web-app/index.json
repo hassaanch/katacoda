@@ -56,7 +56,7 @@
 	],
 	"environment": {
 		"showdashboard": true,
-		"dashboards": [
+		"terminals": [
 			{
 				"name": "Running Containers", 
 				"command": "docker stats", 
