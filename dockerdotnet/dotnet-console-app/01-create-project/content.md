@@ -19,3 +19,19 @@ class Program
     }
 }
 </pre>
+
+```
+dir
+```{{execute}}
+
+```
+cat Demo.Client.csproj
+```{{execute}}
+
+```
+cat Program.cs
+```{{execute}}
+
+```
+dotnet --version
+```{{execute}}
