@@ -36,6 +36,7 @@
 		}
 	},
 	"environment": {
+		"hidefinish": true,
 		"showdashboard": true,
 		"uilayout": "terminal"
 	},

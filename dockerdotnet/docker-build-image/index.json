@@ -48,6 +48,7 @@
 		"Dockerfile"
 	],
 	"environment": {
+		"hidefinish": true,
 		"showdashboard": true,
 		"uilayout": "editor-terminal",
 		"uisettings": "dockerfile"
