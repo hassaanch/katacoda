@@ -6,8 +6,11 @@ To use build stages, we will update our Dockerfile by specifying that our origin
 
 <pre class="file" data-filename="Dockerfile" data-target="replace">
 FROM mcr.microsoft.com/dotnet/core/sdk:3.0-alpine AS construct
+
 WORKDIR /web
+
 COPY . ./
+
 RUN dotnet publish --output site --configuration Release
 </pre>
 
