@@ -16,6 +16,12 @@
 			"text": "09-conclusion/content.md"
 		}
 	},
+	"files": [
+		"Demo.Web.csproj",
+		"Startup.cs",
+		"Program.cs",
+		"Dockerfile"
+	],
 	"environment": {
 		"showdashboard": true,
 		"dashboards": [
