@@ -39,12 +39,12 @@ using Microsoft.AspNetCore.Http;
 
 public class Startup
 {
-    string css = "<link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\">";
+    string css = "&lt;link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\"&gt;";
     string title = "Hey .NET User Group!";
 
-    public void Configure(IApplicationBuilder app) =>
-        app.Run(context =>
-            context.Response.WriteAsync($"<html><head>{css}</head><body class=\"container\"><h1 class=\"display-1\">{title}</h1></body></html>")
+    public void Configure(IApplicationBuilder app) =&gt;
+        app.Run(context =&gt;
+            context.Response.WriteAsync($"&lt;html&gt;&lt;head&gt;{css}&lt;/head&gt;&lt;body class=\"container\"&gt;&lt;h1 class=\"display-1\"&gt;{title}&lt;/h1&gt;&lt;/body&gt;&lt;/html&gt;")
 	    );
 }
 </pre>

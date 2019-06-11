@@ -15,7 +15,7 @@ docker run -it mcr.microsoft.com/dotnet/core/sdk:3.0-disco
 Now that we are in the shell, let's create a project. First we are going to change our current directory to the ``/home``{{copy}} directory:
 
 ```
-cd ./home
+cd /home
 ```{{execute}}
 
 Then, we are going to use the [.NET CLI](https://docs.microsoft.com/dotnet/core/tools/) to create a new console application. The [``dotnet new``{{copy}}](https://docs.microsoft.com/dotnet/core/tools/dotnet-new) creates a new project and requires you to specify a project template along with optional parameters. In this example, we specify the ``console``{{copy}} project template to create a console application. We then use the ``--output``{{copy}} parameter to specify that we want this project created in the ``democlient``{{copy}} folder. Finally, we use the ``--name``{{copy}} parameter to change the name of our project (and default namespace) to ``Demo.Client``{{copy}}:

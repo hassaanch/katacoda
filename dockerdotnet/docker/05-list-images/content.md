@@ -18,8 +18,8 @@ You can even list images that matches both a repository name and tag:
 docker images ubuntu:16.04
 ```{{execute}}
 
-For complex queries, there is a ``--filter``{{copy}} option. In this example, we find all images that were created before the **mysql** image:
+For complex queries, there is a ``--filter``{{copy}} option. In this example, we find all images that were created before the **ubuntu:14.04** image:
 
 ```
-docker images --filter "before=ubuntu:16.04"
+docker images --filter "before=ubuntu:14.04"
 ```{{execute}}
