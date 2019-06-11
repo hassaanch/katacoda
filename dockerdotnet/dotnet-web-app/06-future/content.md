@@ -13,7 +13,7 @@ COPY . ./
 
 RUN dotnet new reactredux --output web --name spa
 
-WORKDIR /web
+WORKDIR /app/web
 
 RUN curl -sL https://deb.nodesource.com/setup_12.x | bash - && apt-get install -yq nodejs build-essential
 
