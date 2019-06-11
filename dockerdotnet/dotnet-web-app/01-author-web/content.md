@@ -49,13 +49,15 @@ public class Startup
                     &lt;head&gt;
                         {css}
                     &lt;/head&gt;
-                    &lt;body class=""container""&gt;
-                        &lt;nav class=""navbar navbar-dark bg-info mb-5""&gt;
+                    &lt;body&gt;
+                        &lt;nav class=""navbar navbar-dark bg-info mb-4""&gt;
                             &lt;span class=""navbar-brand mb-0 h1""&gt;.NET Core on Docker&lt;/span&gt;
                         &lt;/nav&gt;
-                        &lt;h1 class=""display-1""&gt;
-                            {title}
-                        &lt;/h1&gt;
+                        &lt;main class=""container""&gt;                        
+                            &lt;h1 class=""display-1""&gt;
+                                {title}
+                            &lt;/h1&gt;
+                        &lt;/main&gt;
                     &lt;/body&gt;
                 &lt;/html&gt;
             ")
