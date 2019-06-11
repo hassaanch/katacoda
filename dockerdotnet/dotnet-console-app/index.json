@@ -13,19 +13,23 @@
 				"text": "02-pull-code/content.md"
 			},
 			{
-				"title": "Build Interactively",
+				"title": "Build and Run Interactively",
 				"text": "03-build/content.md"
 			},
 			{
-				"title": "Run Application",
-				"text": "04-run/content.md"
+				"title": "Publish Application",
+				"text": "04-publish/content.md"
+			},
+			{
+				"title": "Create Self-Contained Application",
+				"text": "05-self-contained/content.md"
 			}
 		],
 		"intro": {
 			"text": "00-introduction/content.md"
 		},
 		"finish": {
-			"text": "05-conclusion/content.md"
+			"text": "06-conclusion/content.md"
 		}
 	},
 	"files": [
