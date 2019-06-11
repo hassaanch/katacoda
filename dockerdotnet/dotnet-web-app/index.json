@@ -65,7 +65,8 @@
 		"uilayout": "terminal-iframe-split",
 		"uisettings": "csharp"
 	},
-	"backend": {
-		"imageid": "docker"
-	}
+    "backend": {
+        "imageid": "docker",
+        "port": 80
+    }
 }
