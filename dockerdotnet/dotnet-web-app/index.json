@@ -2,6 +2,8 @@
 	"title": ".NET Core Web Applications",
 	"description": "Learn how to build a .NET Core web application",
 	"icon": "fa-csharp",
+	"difficulty": "beginner",
+	"time": "20 minutes",
 	"details": {
 		"steps": [
 			{

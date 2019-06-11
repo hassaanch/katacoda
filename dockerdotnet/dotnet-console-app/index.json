@@ -2,6 +2,8 @@
 	"title": ".NET Core Console Applications",
 	"description": "Learn how to build a .NET Core console application",
 	"icon": "fa-csharp",
+	"difficulty": "beginner",
+	"time": "15 minutes",
 	"details": {
 		"steps": [
 			{
