@@ -22,10 +22,10 @@ using Microsoft.AspNetCore.Hosting;
 
 public class Program
 {
-    public static void Main(string[] args) =>
+    public static void Main(string[] args) =&gt;
         new WebHostBuilder()
             .UseKestrel()
-            .UseStartup<Startup>()
+            .UseStartup&lt;Startup&gt;()
             .Build()
             .Run();
 }
@@ -39,13 +39,27 @@ using Microsoft.AspNetCore.Http;
 
 public class Startup
 {
-    string css = "&lt;link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css\"&gt;";
+    string css = @"&lt;link rel=""stylesheet"" href=""https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css""&gt;";
     string title = "Hey .NET User Group!";
 
     public void Configure(IApplicationBuilder app) =&gt;
         app.Run(context =&gt;
-            context.Response.WriteAsync($"&lt;html&gt;&lt;head&gt;{css}&lt;/head&gt;&lt;body class=\"container\"&gt;&lt;h1 class=\"display-1\"&gt;{title}&lt;/h1&gt;&lt;/body&gt;&lt;/html&gt;")
-	    );
+            context.Response.WriteAsync($@"
+                &lt;html&gt;
+                    &lt;head&gt;
+                        {css}
+                    &lt;/head&gt;
+                    &lt;body class=""container""&gt;
+                        &lt;nav class=""navbar navbar-dark bg-info mb-5""&gt;
+                            &lt;span class=""navbar-brand mb-0 h1""&gt;.NET Core on Docker&lt;/span&gt;
+                        &lt;/nav&gt;
+                        &lt;h1 class=""display-1""&gt;
+                            {title}
+                        &lt;/h1&gt;
+                    &lt;/body&gt;
+                &lt;/html&gt;
+            ")
+        );
 }
 </pre>
 
