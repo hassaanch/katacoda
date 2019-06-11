@@ -63,7 +63,7 @@
 				"target": "host01"
 			}
 		],
-		"uilayout": "terminal-iframe-split",
+		"uilayout": "editor-terminal-iframe",
 		"uisettings": "csharp"
 	},
     "backend": {
