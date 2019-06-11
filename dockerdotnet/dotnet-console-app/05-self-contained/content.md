@@ -23,5 +23,10 @@ dir
 ```{{execute}}
 
 ```
-Demo.Client
+cd pub
+dir
+```{{execute}}
+
+```
+./Demo.Client
 ```{{execute}}

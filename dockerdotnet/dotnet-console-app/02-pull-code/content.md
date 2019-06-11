@@ -20,7 +20,7 @@ docker cp . $(docker ps --latest --quiet):/home
 ```{{execute}}
 
 ```
-docker attach $(docker ps --latest --quiet) --detach-keys=ctrl-c
+docker attach --detach-keys=ctrl-c $(docker ps --latest --quiet)
 ```{{execute}}
 
 ```

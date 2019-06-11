@@ -1,10 +1,13 @@
 
 <pre class="file" data-filename="Demo.Client.csproj" data-target="replace">
 &lt;Project Sdk="Microsoft.NET.Sdk"&gt;
-  &lt;PropertyGroup&gt;
-    &lt;OutputType&gt;Exe&lt;/OutputType&gt;
-    &lt;TargetFramework&gt;netcoreapp3.0&lt;/TargetFramework&gt;
-  &lt;/PropertyGroup&gt;
+    &lt;PropertyGroup&gt;
+        &lt;OutputType&gt;Exe&lt;/OutputType&gt;
+        &lt;TargetFramework&gt;netcoreapp3.0&lt;/TargetFramework&gt;
+    &lt;/PropertyGroup&gt;
+    &lt;ItemGroup&gt;
+        &lt;RuntimeHostConfigurationOption Include="System.Globalization.Invariant" Value="true" /&gt;
+    &lt;/ItemGroup&gt;
 &lt;/Project&gt;
 </pre>
 
