@@ -1,0 +1,12 @@
+{
+    "title": "Exploring the Azure Storage SDK for .NET",
+    "description": "Learn how to access an Azure Storage account using C# and .NET",
+	"icon": "fa-csharp",
+    "courses": [
+        {
+            "course_id": "azurite",
+            "title": "Configuring Azurite to emulate Azure Storage",
+            "description": ""
+        }
+    ]
+}

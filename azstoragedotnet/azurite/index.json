@@ -1,0 +1,29 @@
+{
+    "title": "Configuring Azurite to emulate Azure Storage",
+	"description": "",
+	"icon": "fa-csharp",
+	"difficulty": "beginner",
+    "time": "10 minutes",
+	"details": {
+		"steps": [
+			{
+				"title": "Exercise: Empty",
+				"text": "01-empty/content.md"
+			}
+		],
+		"intro": {
+			"text": "00-introduction/content.md",
+			"courseData": "00-introduction/background.sh"
+		},
+		"finish": {
+			"text": "07-conclusion/content.md"
+		}
+	},
+	"environment": {
+		"showdashboard": true,
+		"uilayout": "terminal"
+	},
+	"backend": {
+		"imageid": "dotnet"
+	}
+}

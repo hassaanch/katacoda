@@ -4,6 +4,11 @@
             "title": "Dockerizing .NET Core Applications",
             "description": "Learn how to Dockerize .NET Core applications",
             "id": "dockerdotnet"
+        },
+        {            
+            "title": "Exploring the Azure Storage SDK for .NET",
+            "description": "Learn how to access an Azure Storage account using C# and .NET",
+            "id": "azstoragedotnet"
         }
     ]
 }
