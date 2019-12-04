@@ -19,9 +19,21 @@
 			"text": "07-conclusion/content.md"
 		}
 	},
+	"files": [
+		"Application.csproj",
+		"Program.cs"
+	],
 	"environment": {
 		"showdashboard": true,
-		"uilayout": "terminal"
+		"uilayout": "editor-terminal",
+		"uisettings": "csharp",		
+		"terminals": [
+			{
+				"name": "Running Azurite", 
+				"command": "docker run -p 10000:10000 mcr.microsoft.com/azure-storage/azurite", 
+				"target": "host01"
+			}
+		]
 	},
 	"backend": {
 		"imageid": "dotnet"
