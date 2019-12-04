@@ -8,10 +8,21 @@
 		"steps": [
 			{
 				"title": "Exercise: Empty",
-				"text": "01-empty/content.md",
-				"courseData": "01-empty/background.sh"
+				"text": "01-empty/content.md"
 			}
-		]
+		],
+		"assets": {
+		  "client": [
+			{
+			  "file": "Application.csproj",
+			  "target": "~/"
+			},
+			{
+			  "file": "Program.cs",
+			  "target": "~/"
+			}
+		  ]
+		}
 	},
 	"files": [
 		"Application.csproj",
@@ -19,6 +30,13 @@
 	],
 	"environment": {
 		"showdashboard": true,
+		"terminals": [
+			{
+				"name": "Running Azurite", 
+				"command": "docker run -p 10000:10000 mcr.microsoft.com/azure-storage/azurite", 
+				"target": "host01"
+			}
+		],
 		"uilayout": "editor-terminal",
 		"uisettings": "csharp"
 	},
