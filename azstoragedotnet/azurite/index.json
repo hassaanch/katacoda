@@ -29,7 +29,7 @@
 		"terminals": [
 			{
 				"name": "Running Azurite", 
-				"command": "docker stats", 
+				"command": "docker run -p 10000:10000 mcr.microsoft.com/azure-storage/azurite", 
 				"target": "host01"
 			}
 		],
@@ -37,6 +37,6 @@
 		"uisettings": "csharp"
 	},
 	"backend": {
-		"imageid": "dotnet"
+		"imageid": "docker"
 	}
 }
