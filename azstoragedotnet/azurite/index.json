@@ -24,16 +24,12 @@
 		  ]
 		}
 	},
-	"files": [
-		"Application.csproj",
-		"Program.cs"
-	],
 	"environment": {
 		"showdashboard": true,
 		"terminals": [
 			{
 				"name": "Running Azurite", 
-				"command": "docker run -p 10000:10000 mcr.microsoft.com/azure-storage/azurite", 
+				"command": "docker stats", 
 				"target": "host01"
 			}
 		],
